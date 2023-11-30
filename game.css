@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+#game-container {
+	width: 100%;
+	height: 80vh;
+	background-color: #222222;
+	position: relative;
+}
+
+#player {
+	width: 3%;
+	height: 8%;
+	background-color: #AACCFF;
+	position: absolute;
+	bottom: 0;
+}
+
+.platform {
+	width: 150px;
+	height: 20px;
+	background-color: #BBBBBB;
+	position: absolute;
+}
+
+.obstacle {
+	width: 50px;
+	height: 50px;
+	background-color: #FFAAAA;
+	position: absolute;
+}
+
+#finish-line {
+	width: 20px;
+	height: 100%;
+	background-color: #FFFFAA;
+	position: absolute;
+}
+
+.message {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 24px;
+}

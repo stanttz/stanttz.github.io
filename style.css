@@ -1,0 +1,178 @@
+@media (max-width: 768px) {
+	body {
+		font-size: 18px;
+	}
+
+	.judul-header {
+		font-size: 24px;
+	}
+
+	nav {
+		font-size: 24px;
+	}
+
+	.foto-profil {
+		max-width: 100%;
+	}
+}
+
+body {
+	font-family: Segoe UI;
+	margin: 0px;
+	padding: 0;
+}
+
+header {
+	background-color: #358;
+	color: #def;
+	padding: 10px;
+	text-align: center;
+	font-family: Gill Sans MT;
+	letter-spacing: 1px;
+	word-spacing: 10px;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 20px 20px;
+}
+
+nav a {
+	color: #246;
+	text-decoration: none;
+	padding: 10px 12px;
+	margin: 0px 10px;
+	border-radius: 10px;
+	transition: background-color 0.2s, color 0.2s;
+	line-height: 30px;
+}
+
+nav a:hover {
+	background-color: #469;
+	color: #def;
+}
+
+main {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+}
+
+ul {
+	list-style-type: square;
+	padding-left: 30px;
+}
+
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color: #134;
+	color: #cdd;
+}
+
+.tabs {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.foto-profil {
+	display: block;
+	margin: 0 auto;
+	max-width: 20%;
+	height: auto;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+
+.judul-main {
+	font-size: 24px;
+	margin-top: 30px;
+	color: #555;
+	border-bottom: 2px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.judul-header {
+	font-size: 36px;
+	margin: 20px;
+}
+
+.menu-navigasi {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.menu-navigasi li {
+	display: inline;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.menu-navigasi li:last-child {
+	margin-right: 0;
+}
+
+.menu-navigasi a {
+	color: #345;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid #345;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.menu-navigasi a:hover {
+	background-color: #358;
+	color: #def;
+	border-color: #7ac;
+}
+
+.project-card img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #333;
+}
+
+.project-card p {
+	margin-top: 10px;
+	font-size: 16px;
+	color: #555;
+}
+
+.project-card .btn {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.project-card .btn:hover {
+	background-color: #555;
+}
+
+.gallery-item {
+	height: 350px;
+	overflow: hidden;
+}
+
+.gallery-img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
